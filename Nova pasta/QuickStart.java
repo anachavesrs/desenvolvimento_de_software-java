@@ -3,3 +3,4 @@ class QuickStart {
         System.out.println("Hello, world");
     }
 } 
+// Criando uma classe 
