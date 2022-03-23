@@ -10,8 +10,14 @@ public class Sorteio {
     // rotina principal
     public static void main(String[] args) {
         Random gerador = new Random();
+        int c =1;
+       while (c <=1000){
+        // ler o numero
         int n = 1 + gerador.nextInt(100);
+        c++;
         System.out.println(n);
+
+       }
     }
     
 }
