@@ -1,3 +1,5 @@
+// Faça um programa que sorteie 1000 números inteiros ( de 1 até 100) e calcule a média, o valor máximo e o valor mínimo.
+
 import java.util.Random;
 
 public class Sorteio {
