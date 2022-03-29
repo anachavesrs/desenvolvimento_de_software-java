@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class calendario {
     //funções e procedimentos
-    public static String MostrarNomeMesIf(int mes){
+    public static String Mostrar
+    NomeMesIf(int mes){
 
         String nomeMes ="";
         if (mes==1){
