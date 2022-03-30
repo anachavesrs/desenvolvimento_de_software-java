@@ -11,3 +11,6 @@ public class Tabuada {
     }
     
 }
+// formatação:
+// \n -- quebra linha
+// \t -- tabulação
