@@ -14,3 +14,11 @@ public class Tabuada {
 // formatação:
 // \n -- quebra linha
 // \t -- tabulação
+
+/*
+ %d = inteiro
+    %f = float
+    %s = string
+    %c - character
+    %t = data/hora
+*/
