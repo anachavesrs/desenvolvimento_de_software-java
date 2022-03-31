@@ -30,11 +30,11 @@ public class SorteioBusca {
     public static void main(String[] args) {
         sortear();
         teclado = new Scanner(System.in);
-        System.out.println("digte um numero:");
+        System.out.println("Digite um número:");
         int num = teclado.nextInt();
         int pos = procurar(num);
         if (pos <= 0){
-            System.out.println("Número encontrado na posição %d", pos);
+            System.out.printf("Número encontrado na posição %d", pos);
         } else {
             System.out.println("Número não encontrado");
         }
