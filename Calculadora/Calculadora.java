@@ -29,7 +29,7 @@ public class Calculadora {
         System.out.println("Digite 1 para somar");
         System.out.println("Digite 2 para subtrair");
         System.out.println("Digite 3 para multiplicar");
-        System.out.println("Digite 4 para dividir");
+        System.out.println("Digite 4 para dividir.");
         int calcular = sc.nextInt(); //armazenar o dado de entrada em uma variavel "calcular"
         System.out.println("Digite o primeiro número para ser calculado");
         int n1 = sc.nextInt(); // armazenar o primeiro n em uma variavel n1
@@ -41,6 +41,7 @@ public class Calculadora {
             case 1:
                 System.out.println("Segue resultado abaixo:");
                 System.out.println(soma(n1, n2));   
+
                 break;
             case 2:
                 System.out.println("Segue resultado abaixo:");
