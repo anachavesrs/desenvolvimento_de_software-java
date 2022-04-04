@@ -12,14 +12,16 @@ public class Fatorial {
         long fatorial = 1;     
 
         // validando se o int é positivo usando o sc.hasNextInt()
+    
+        
         do {
-            System.out.println("Digite o número que deseja calcular, OBS* o número deve ser positivo:");
+            System.out.println("Digite o número que deseja calcular, OBS* o número deve ser positivo! :");
             while (!sc.hasNextInt()) {
                 System.out.println("isso não é um número!");
                 sc.next();
             }
             numero = sc.nextInt();
-        }while (numero <=0);
+        }while (numero < 0);
         System.out.println("O resultado do fatorial segue abaixo:");
 
         // calculando o fatorial
