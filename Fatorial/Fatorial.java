@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// copia n
+
 public class Fatorial {
 
     // atributos
@@ -7,7 +7,7 @@ public class Fatorial {
     //função principal
     public static void main(String[] args) {
         System.out.println("Bem vindo ao programa fatorial feito em Java!");
-        Scanner sc = new Scanner(System.in); //importando entrada de dados entrada de dados
+        Scanner sc = new Scanner(System.in); //importando entrada de dados
         int numero; 
         long fatorial = 1;     
 

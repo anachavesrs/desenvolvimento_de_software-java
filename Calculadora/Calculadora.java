@@ -1,7 +1,27 @@
 import java.util.Scanner;
 
 public class Calculadora {
-//Função principal   
+    //atributos
+    //funções e procedimentos
+    public static int soma(int a, int b){
+        int resultado = a + b;
+        return resultado;    
+    }
+    public static int subtracao(int a, int b){
+        int resultado = a - b;
+        return resultado;
+    }
+    public static int multiplicacao(int a, int b){
+        int resultado = a * b;
+        return resultado;
+    }
+    public static float divisao(int a, int b){
+        float resultado = a / (float)b;
+        return resultado;
+    }
+    
+    //Função principal 
+
     public static void main(String[] args) { 
         System.out.println("Calculadora Feita em Java");
         System.out.println("Selecione a operação matemática que deseja fazer:");
@@ -39,23 +59,7 @@ public class Calculadora {
         }  
         sc.close(); //fim da entrada de dados
     }
-        //criando métodos para cada tipo de operação (soma, ub, mult, div)
+        
 
-    public static int soma(int a, int b){
-        int resultado = a + b;
-        return resultado;    
-    }
-    public static int subtracao(int a, int b){
-        int resultado = a - b;
-        return resultado;
-    }
-    public static int multiplicacao(int a, int b){
-        int resultado = a * b;
-        return resultado;
-    }
-    public static float divisao(int a, int b){
-        float resultado = a / (float)b;
-        return resultado;
-    }
-    
+   
 } //fim da classe calculadora
