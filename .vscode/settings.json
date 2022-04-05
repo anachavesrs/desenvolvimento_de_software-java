@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "aula04",
         "Calculadora",
-        "aula04"
+        "Fibonacci"
     ]
 }
