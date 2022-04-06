@@ -9,7 +9,7 @@ public class Adivinhacao {
     public static void main(String[] args) {
         System.out.println("Jogo de adivinhação feito em Java!");
         Random gerador = new Random();
-        int numSorteado = gerador.nextInt(100) + 1; // armazenando o n sorteado em uma var "numSorteado"
+        int numSorteado = gerador.nextInt(101); // armazenando o n sorteado em uma var "numSorteado"
         int vidas = 10; // var quantidade de vidas inicial
         int palpite = 0;
         Scanner sc = new Scanner(System.in); // habilitando entrada de dados
