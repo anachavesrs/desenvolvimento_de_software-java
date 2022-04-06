@@ -14,13 +14,15 @@ public class Adivinhacao {
         int palpite = 0;
         Scanner sc = new Scanner(System.in); // habilitando entrada de dados
 
+        // rodar o programa enquanto há vidas.
         while (vidas > 0) {
             System.out.println("Digite um número entre 1 e 100");
             palpite = sc.nextInt();
-
+            // validando se o palpite do jogador é um número válido
             if (palpite < 0 || palpite > 100) {
                 System.out.println("Numero inválido");
                 break;
+            // caso positivo, executar o programa
             }else{
                 if (palpite > numSorteado) {
                     vidas --;
@@ -35,8 +37,9 @@ public class Adivinhacao {
                     System.out.println("O número escolhido por voê foi: " + palpite + "e o número sorteado foi: " + numSorteado);
                     break;
                 }          
-            }// fim else principal
-        }// fim while
+            }
+        }
+        // caso as vidas tenham zerado
          if (vidas == 0) {
              System.out.println("Voce perdeu! Suas vidas acabaram");
          }
