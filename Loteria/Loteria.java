@@ -28,11 +28,17 @@ public class Loteria {
         int[]  palpites = new int[6];
         teclado = new Scanner(System.in);
 
-            for ( int i = 0; i >= 6; i++){
+
+           /* for ( int i = 0; i >= 6; i++){
                 System.out.println("Informe um número de 1 a 60");
                 palpites[i] = teclado.nextInt();
-            }
-        
+            }*/
+            int i = 0;
+        do {
+             System.out.println("Informe um número de 1 a 60");
+             palpites[i] = teclado.nextInt();
+        }
+
        
         teclado.close();
     }
