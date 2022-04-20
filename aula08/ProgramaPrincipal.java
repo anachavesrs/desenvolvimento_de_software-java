@@ -7,5 +7,9 @@ public class ProgramaPrincipal {
         System.out.println(pt1);
         System.out.println(pt2);
         System.out.println(pt3);
+
+        System.out.printf("Distancia pt1 -> origem = %f \n", pt1.distancia());
+        System.out.printf("Distancia pt1 -> pt2 = %f \n", pt1.distancia(pt2));
+        System.out.printf("Distancia pt2 -> pt3 = %f \n", pt2.distancia(pt3));
     }
 }
