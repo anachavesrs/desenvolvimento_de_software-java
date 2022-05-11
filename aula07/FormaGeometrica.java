@@ -1,7 +1,7 @@
 
-class FormaGeometrica {
-    public String getCorPreenchimento(){
-        return "Cor indeterminada";
-    }
+// class FormaGeometrica {
+//     public String getCorPreenchimento(){
+//         return "Cor indeterminada";
+//     }
     
-}
+// }
