@@ -33,7 +33,8 @@ public class FrmCalculadoraGeometrica extends JFrame {
         pnl.add(new JLabel("Raio"));
         txtCircunferenciaRaio = new JTextField();
         pnl.add(txtCircunferenciaRaio);
-        pnl.add(btnCircunferenciaCalcularArea = new JButton("Calcular"));
+        btnCircunferenciaCalcularArea = new JButton("Calcular")
+        pnl.add(btnCircunferenciaCalcularArea);
         pnl.add(new JLabel("Area"));
         txtCircunferenciaArea = new JTextField();
         pnl.add(txtCircunferenciaArea);
@@ -49,7 +50,8 @@ public class FrmCalculadoraGeometrica extends JFrame {
         pnl.add(new JLabel("Altura"));
         txtRetanguloAltura = new JTextField();
         pnl.add(txtRetanguloAltura);
-        pnl.add(btnRetanguloCalcularArea= new JButton("Calcular"));
+        btnRetanguloCalcularArea= new JButton("Calcular");
+        pnl.add(btnRetanguloCalcularArea);
         pnl.add(new JLabel("Area"));
         txtRetanguloArea = new JTextField();
         pnl.add(txtRetanguloArea);
