@@ -1,3 +1,5 @@
+package logica;
+
 public class Circulo extends FormaGeometrica {
     private double raio; 
     public Circulo(){

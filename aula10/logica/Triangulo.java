@@ -1,3 +1,4 @@
+package logica;
 public class Triangulo extends FormaGeometrica {
     private double base;
     private double altura;

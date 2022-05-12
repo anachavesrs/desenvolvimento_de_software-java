@@ -1,3 +1,4 @@
+package logica;
 public class Retangulo extends FormaGeometrica{
     private double base;
     private double altura;
