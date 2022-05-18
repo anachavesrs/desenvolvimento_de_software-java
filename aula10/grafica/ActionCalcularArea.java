@@ -1,9 +1,11 @@
+package grafica;
+
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
 import javax.swing.JTextField;
 
-import aula10.Logica.Circulo;
+import logica.Circulo;
 
 public class ActionCalcularArea extends AbstractAction{
     public enum OpcaoForma{
