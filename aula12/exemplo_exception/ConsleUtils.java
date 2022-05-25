@@ -15,9 +15,9 @@ public class ConsleUtils {
 
         } catch(NumberFormatException ex){
            
-            // System.out.println("Valor informado não é um número inteiro válido. Tente novamente.");
-            System.out.println(ex.getMessage());
-            ex.printStackTrace();
+             System.out.println("Valor informado não é um número inteiro válido. Tente novamente.");
+            // System.out.println(ex.getMessage());
+            // ex.printStackTrace();
             }
 
         }
