@@ -6,11 +6,12 @@ public class ProgramaPrincipal {
         // System.out.printf("Inteiro digitado %d", num);
 
         int num = ConsleUtils.LerInteiro("Digite um inteiro: ");
+       try{
         long fat = Fatorial.calcular(num);
-        if(fat==-1){
-            System.out.printf("Não foi possível calcular.");
-        }else{
-            System.out.printf("\n%d = %d", num, fat);
-        }
+        System.out.printf("%d! = %d", num, fat);
+       } catch(IllegalArgumentException ex){
+           System.out.println(ex.getMessage());
+       }
+
     }
 }

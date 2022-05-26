@@ -1,7 +1,7 @@
 package exemplo_exception;
 
 public class Fatorial {
-    public static long calcular(int num) {
+    public static long calcular(int num) throws IllegalArgumentException {
         if(num >= 0){
 
             long fat = 1;
@@ -11,8 +11,7 @@ public class Fatorial {
                 return fat;
 
         }else{
-            System.out.printf("Não existe fatorial negativo: %d!", num);
-            return -1;
+            throw new IllegalArgumentException("Não existe fatorial de número negativo.");
         }
     }
 }
