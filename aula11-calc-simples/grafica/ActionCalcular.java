@@ -29,6 +29,15 @@ public class ActionCalcular extends AbstractAction{
         if (cbxOperacao.getSelectedItem().equals("Soma")){
             JOptionPane.showMessageDialog(null, String.format("O resultado de %f + %f é %f", x, y, calc.somar()), "Calculadora simples", JOptionPane.INFORMATION_MESSAGE);
         }
+        if (cbxOperacao.getSelectedItem().equals("Subtração")){
+            JOptionPane.showMessageDialog(null, String.format("O resultado de %f - %f é %f", x, y, calc.subtrair()), "Calculadora simples", JOptionPane.INFORMATION_MESSAGE);
+        }
+        if (cbxOperacao.getSelectedItem().equals("Multiplicação")){
+            JOptionPane.showMessageDialog(null, String.format("O resultado de %f x %f é %f", x, y, calc.multiplicar()), "Calculadora simples", JOptionPane.INFORMATION_MESSAGE);
+        }
+        if (cbxOperacao.getSelectedItem().equals("Divisão")){
+            JOptionPane.showMessageDialog(null, String.format("O resultado de %f / %f é %f", x, y, calc.dividir()), "Calculadora simples", JOptionPane.INFORMATION_MESSAGE);
+        }
         
     }
     
