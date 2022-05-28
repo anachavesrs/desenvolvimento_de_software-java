@@ -1,16 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "aula11-calc-simples",
+        "aula10",
+        "aula09",
+        "aula08",
         "aula07",
         "aula04",
-        "Loteria",
-        "Fibonacci",
-        "Fatorial",
-        "Calculadora",
-        "Adivinhação",
-        "Aula 08",
-        "aula08",
-        "aula09",
-        "aula10",
-        "aula11-calc-simples"
+        "TrabalhoBimestral2/JogoMemoria"
     ]
 }
